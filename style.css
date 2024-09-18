@@ -1,0 +1,112 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+/*fim reset*/
+
+body{
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    padding-inline: 80px;
+    background-color:rgb(255, 209, 216);
+}
+
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 96px;
+    width: 96px;
+    background-color: rgb(251, 121, 141);
+    background-image: url(./2447831.jpg);
+    background-size: cover;
+
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+    color: rgb(246, 108, 129) ;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 96px;
+}
+.conteudo p{
+    width: 80%;
+    font-size: 40px;
+}
+.acao button{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(246, 108, 129);
+    color: rgb(248, 201, 208);
+    font-size: 32px;
+}
+.social{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 96px;
+    width: 96px;
+    background-color: rgb(246, 108, 129);
+    border-radius: 50%;
+}
+.img1{
+    background-image: url(./—Pngtree—instagram\ icon\ logo\ pink_5225553.png);
+    background-size: cover;
+}
+.img2{
+    background-image: url(./6293716a3e40f0cd1c5df481.png);
+    background-size: cover;
+}
+.img3{
+    background-image: url(./—Pngtree—pink\ whatsapp\ icon_5521660.png);
+    background-size: cover;
+}
+.destaque{
+    width: 30%;
+    margin-left: 435px;
+    margin-right: 200px;
+    background-color: lightgrey;
+    background-image: url(./viralata.jpg);
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(246, 108, 129);
+} 
+
